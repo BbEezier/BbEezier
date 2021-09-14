@@ -1,13 +1,28 @@
 const me = new Coder();
 // who am i?
-me.nick('yLTT');
-me.name('name');
-me.country('中国');
+me.nick('芋头');
+me.name('孙信宇');
+me.sex('boy');
+// contact me 
+me.city('杭州');
+me.email('xinyu198736@gmail.com');
+me.phone('13067960669');
+me.wechat('yutou-963');
 // my social media
-me.github('https://github.com/BbEezier');
-me.blog('http://liangzt.top');
+me.github('http://github.com/yu-tou');
+me.blog('http://html-js.com');
+me.zhihu('https://zhihu.com/people/li-shou-xin')
 // my skill
-me.language('C/C#/Java/Python');
-me.skill('ctrl c+ctrl v');
-me.school('金斗街男子职业技术学院');
-me.major('物联网工程');
+me.language('JS/NodeJS/iOS/Java');
+me.skill('可视化/跨端/GIS/工程化/全栈/团队管理');
+// my school and company
+me.company({
+  2020: '预策科技',
+  2013: '大搜车',
+  2009: '淘宝',
+});
+me.school('南京理工大学');
+me.major('电子科学与技术');
+// others
+me.isMarry = true;
+me.hasChild = false;
